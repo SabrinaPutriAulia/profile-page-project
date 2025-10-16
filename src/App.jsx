@@ -60,7 +60,7 @@ export default function App() {
       )}
 
       {/* Konten utama */}
-      <div className="flex-1 flex flex-col pl-0 lg:pl-64">
+      <div className="flex-1 flex flex-col lg:pl-6">
         <Navbar onMenuClick={() => setIsSidebarOpen(!isSidebarOpen)} />
 
         <main className="flex-1 pt-6 px-6 space-y-6 text-green-900">
